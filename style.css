@@ -74,10 +74,31 @@ body{
     padding: 60px 0px;
 }
 .sell-title{
-    font-size: px;
+    font-size: 40px;
     padding-bottom: 10px;
 
 }
 span{
     color: #E55473;
+}
+
+.isnta-photo{
+    width: 260px;
+    height: 290px;
+}
+.insta-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.insta-info{
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.instagram{
+    padding: 65px 120px;
 }
