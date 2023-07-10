@@ -2,3 +2,57 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* banner cls */
+
+.banner-container{
+    height: 100vh;
+    background-color:rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 120px;
+    gap: 50px;
+}
+.banner-img{
+    width: 450px;
+    padding-top: 70px;
+
+      
+}
+.banner-title{
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+.banner-info{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.left-banner{
+    width: 50%;
+    margin: 20px;
+    
+}
+.banner-btn{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.banner-btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
