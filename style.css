@@ -56,3 +56,28 @@ body{
     cursor: pointer;
 }
 
+/* sell cointainer */
+
+.sell-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(252, 44, 90, 0.05);
+    padding: 70px 90px;
+}
+.sell-photo{
+    width: 270px;
+}
+.sell-info{
+    width: 50%;
+    text-align: center;
+    padding: 60px 0px;
+}
+.sell-title{
+    font-size: px;
+    padding-bottom: 10px;
+
+}
+span{
+    color: #E55473;
+}
