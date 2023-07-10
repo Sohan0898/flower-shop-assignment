@@ -113,7 +113,8 @@ span{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 65px 100px;
-    margin: 30px 140px;
+    margin: 0px 140px;
+    margin-bottom: 90px;
     border-radius: 8px;
     text-align: center;
 }
@@ -138,6 +139,7 @@ height: 60px;
 border: none;
 padding-left: 10px;
 }
+
 .sub-btn{
     width: 120px;
     height: 60px;
@@ -152,4 +154,30 @@ padding-left: 10px;
     background-color: white;
     color: black;
     cursor: pointer;
+}
+
+/* footer */
+.foot{
+    background-color: rgba(17, 16, 16, 1);
+    padding: 60px;
+    text-align: center;
+
+    
+}
+
+.foot-title{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    font-size: 48px;
+    
+}
+.foot-info{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+line-height: 30px;
+padding-bottom: 25px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
 }
