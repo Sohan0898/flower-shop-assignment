@@ -41,7 +41,7 @@ body{
     
 }
 .banner-btn{
-    border-radius: 8px;
+    border-radius: 6px;
     background: #E55473;
     color: #FFFFFF;
     border: none;
@@ -53,8 +53,8 @@ body{
 }
 
 .banner-btn:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: #E55473;
     cursor: pointer;
 }
 
@@ -146,41 +146,16 @@ padding-left: 10px;
     border: none;
     background-color: #E55473;
     color: #FFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     border-radius: 8px;
 }
 .sub-btn:hover{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: #E55473;
     cursor: pointer;
 }
 
-/* footer */
-.foot{
-    background-color: rgba(17, 16, 16, 1);
-    padding: 60px;
-    text-align: center;
-
-    
-}
-
-.foot-title{
-    color: #FFFFFF;
-    padding-bottom: 10px;
-    font-size: 48px;
-    
-}
-.foot-info{
-    color: rgba(255, 255, 255, 0.90);
-font-size: 18px;
-line-height: 30px;
-padding-bottom: 25px;
-}
-.copy{
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 16px;
-}
 
 /* Self Content */
 
@@ -189,11 +164,12 @@ padding-bottom: 25px;
     height: 200px;
     box-shadow: 1px 1px 12px lightgray;
     border-radius: 10px;
-    background-color: rgb(255, 249, 249);
+    background-color: rgb(246, 250, 253);
 }
 
 .rose-img:hover{
     cursor: grabbing;
+    background-color: #ffdee5;
 }
 .box{
     width: 280px;
@@ -248,6 +224,11 @@ padding-bottom: 25px;
     
     
 }
+.feature-img1{
+    width: 300px;
+    height: 300px;
+    margin-top: 90px;
+}
 .feature-flower1{
     width: 350px;
     height: 400px;
@@ -279,6 +260,9 @@ padding-bottom: 25px;
     text-decoration: underline;
     color: rgba(39, 39, 39, 1);
 }
+.feature-caption1{
+    padding-top: 20px;
+}
 
 .feature-caption:hover{
     cursor: pointer;
@@ -287,6 +271,7 @@ padding-bottom: 25px;
 .feature-flowers{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 40px;
@@ -322,4 +307,34 @@ padding-bottom: 25px;
     font-weight: 600;
     line-height: 35px;
     padding-top: 10px;
+}
+.hr{
+    width: 80%;
+    margin: auto;
+}
+
+/* footer */
+.foot{
+    background-color: rgb(30, 29, 29);
+    padding: 60px;
+    text-align: center;
+
+    
+}
+
+.foot-title{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    font-size: 48px;
+    
+}
+.foot-info{
+    color: rgba(255, 255, 255, 0.90);
+font-size: 18px;
+line-height: 30px;
+padding-bottom: 25px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
 }
