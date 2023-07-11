@@ -181,3 +181,49 @@ padding-bottom: 25px;
     color: rgba(255, 255, 255, 0.4);
     font-size: 16px;
 }
+
+/* Self Content */
+
+.rose-img{
+    width: 180px;
+    height: 200px;
+}
+
+.box{
+    width: 280px;
+    height:320px;
+    box-shadow: 4px 4px 10px grey;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.box-title{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.price{
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    color: rgb(24, 24, 24);
+}
+.self-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.self-content{
+    text-align: center;
+    padding: 60px;
+}
+.self-title{
+    padding-bottom: 40px;
+    font-size: 40px;
+}
