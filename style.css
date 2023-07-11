@@ -187,16 +187,22 @@ padding-bottom: 25px;
 .rose-img{
     width: 180px;
     height: 200px;
+    box-shadow: 1px 1px 12px lightgray;
+    border-radius: 10px;
+    background-color: rgb(255, 249, 249);
 }
 
+.rose-img:hover{
+    cursor: grabbing;
+}
 .box{
     width: 280px;
-    height:320px;
+    height:330px;
     box-shadow: 4px 4px 10px grey;
     text-align: center;
     border-radius: 5px;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: rgb(246, 250, 253);
 }
 .boxs{
     display: flex;
@@ -207,6 +213,12 @@ padding-bottom: 25px;
 .box-title{
     font-size: 20px;
     padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.box-title:hover{
+    cursor: pointer;
+    color: #E55473;
 }
 .price{
     font-size: 14px;
@@ -266,6 +278,11 @@ padding-bottom: 25px;
     line-height: 35px;
     text-decoration: underline;
     color: rgba(39, 39, 39, 1);
+}
+
+.feature-caption:hover{
+    cursor: pointer;
+    color: #E55473;
 }
 .feature-flowers{
     display: flex;
