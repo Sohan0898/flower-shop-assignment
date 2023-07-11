@@ -281,3 +281,28 @@ padding-bottom: 25px;
     text-align: center;
     padding: 80px;
 }
+
+/* service container */
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 60px;
+    margin: 0px 130px;
+    border-radius: 8px;
+
+}
+.service{
+    padding-bottom: 80px;
+}
+.service-info{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 10px;
+}
